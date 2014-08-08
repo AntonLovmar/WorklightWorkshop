@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<wl:adapter name="blogAdapter"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:wl="http://www.worklight.com/integration"
+	xmlns:http="http://www.worklight.com/integration/http">
+
+	<displayName>blogAdapter</displayName>
+	<description>blogAdapter</description>
+	<connectivity>
+		<connectionPolicy xsi:type="http:HTTPConnectionPolicyType" cookiePolicy="IGNORE_COOKIES">
+			<protocol>http</protocol>
+			<domain>192.168.1.120</domain>
+			<port>8080</port>	
+			<!-- Following properties used by adapter's key manager for choosing specific certificate from key store  
+			<sslCertificateAlias></sslCertificateAlias> 
+			<sslCertificatePassword></sslCertificatePassword>
+			-->		
+		</connectionPolicy>
+		<loadConstraints maxConcurrentConnectionsPerNode="2" />
+	</connectivity>
+
+	<procedure name="getPosts" securityTest="BlogAuthentication"/>
+	<procedure name="addPost" securityTest="BlogAuthentication"/>
+	
+</wl:adapter>

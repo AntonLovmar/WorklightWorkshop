@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+    	<head>
+    		<meta charset="UTF-8">
+    		<title>WorklightBlog</title>
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    		<!--
+    			<link rel="shortcut icon" href="images/favicon.png">
+    			<link rel="apple-touch-icon" href="images/apple-touch-icon.png"> 
+    		-->
+    		
+    		<link rel="stylesheet" href="css/main.css">
+    		<script>window.$ = window.jQuery = WLJQ;</script>
+    		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
+    		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    		<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+    	</head>
+    	<body style="display: none;">
+    		<!--application UI goes here-->
+    		<div data-role="page" id="loginPage">
+		        <div data-role="header">
+		            <h1>Login</h1>
+		        </div>
+		        <div role="main" class="ui-content" style="padding:1em">
+		            <div <input type="text" name="username" id="un" value="" placeholder="User name">
+		            </div>
+		            <div>
+		                <input type="password" name="password" id="pw" value="" placeholder="password">
+		            </div>
+		            <button id="submitBtn" type="submit">Submit</button>
+		        </div>
+		    </div>
+		    <div data-role="page" id="mainPage">
+			    <div data-role="panel" id="menu">
+			    	<button id="logoutBtn" type="submit">Log out</button>
+				</div>
+		        <div data-role="header">
+		        	<a data-icon="bars" href="#menu">Menu</a>
+		            <h1>Blog</h1>
+		        </div>
+		        <div role="main" class="ui-content">
+			        <button id=getPostsBtn >Get posts</button>
+			    	<ul id="postList" data-role="listview" style="margin-top: 1.5em;">
+			    	</ul>
+				</div>
+		    </div>
+		    <script src="js/loginPage.js"></script>
+		    <script src="js/mainPage.js"></script>
+		    <script src="js/challengeHandler.js"></script>
+    		<script src="js/initOptions.js"></script>
+    		<script src="js/main.js"></script>
+    		<script src="js/messages.js"></script>
+    	</body>
+</html>

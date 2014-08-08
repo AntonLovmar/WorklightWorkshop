@@ -1,0 +1,20 @@
+----------------------------------------------------------------
+Wed Aug 06 12:19:03 CEST 2014:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.3 - (1326460): instance a816c00e-0147-aad4-4283-000003c9ee68 
+on database directory /Users/edgeguide/.worklight/6.2.0/server/derby/HelloBlog/WRKLGHT  with class loader AntClassLoader[/Applications/IBM/Worklight-CLI/worklight-cli/node_modules/generator-worklight-server/lib/worklight-ant-deployer.jar] 
+Loaded from file:/Applications/IBM/Worklight-CLI/worklight-cli/node_modules/generator-worklight-server/lib/worklight-ant-deployer.jar
+java.vendor=Apple Inc.
+java.runtime.version=1.6.0_65-b14-466.1-11M4716
+user.dir=/Users/edgeguide/Github/worklight_workshop/HelloBlog
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Aug 06 12:19:03 CEST 2014:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.3 - (1326460): instance 40348015-0147-aad4-4283-000003c9ee68 
+on database directory /Users/edgeguide/.worklight/6.2.0/server/derby/HelloBlog/WLREPORT  with class loader AntClassLoader[/Applications/IBM/Worklight-CLI/worklight-cli/node_modules/generator-worklight-server/lib/worklight-ant-deployer.jar] 
+Loaded from file:/Applications/IBM/Worklight-CLI/worklight-cli/node_modules/generator-worklight-server/lib/worklight-ant-deployer.jar
+java.vendor=Apple Inc.
+java.runtime.version=1.6.0_65-b14-466.1-11M4716
+user.dir=/Users/edgeguide/Github/worklight_workshop/HelloBlog
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
